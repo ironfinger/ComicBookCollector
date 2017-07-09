@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E306571D1F0C3A1E0081C93E /* ComicBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E306571C1F0C3A1E0081C93E /* ComicBookViewController.swift */; };
 		E32A98531F0BEFB6006AFF8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32A98521F0BEFB6006AFF8F /* AppDelegate.swift */; };
 		E32A98551F0BEFB6006AFF8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32A98541F0BEFB6006AFF8F /* ViewController.swift */; };
 		E32A98581F0BEFB6006AFF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E32A98561F0BEFB6006AFF8F /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E306571C1F0C3A1E0081C93E /* ComicBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicBookViewController.swift; sourceTree = "<group>"; };
 		E32A984F1F0BEFB6006AFF8F /* ComicBookCollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComicBookCollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32A98521F0BEFB6006AFF8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E32A98541F0BEFB6006AFF8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				E32A98521F0BEFB6006AFF8F /* AppDelegate.swift */,
 				E32A98541F0BEFB6006AFF8F /* ViewController.swift */,
+				E306571C1F0C3A1E0081C93E /* ComicBookViewController.swift */,
 				E32A98561F0BEFB6006AFF8F /* Main.storyboard */,
 				E32A985C1F0BEFB6006AFF8F /* Assets.xcassets */,
 				E32A985E1F0BEFB6006AFF8F /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E32A985B1F0BEFB6006AFF8F /* ComicBookCollector.xcdatamodeld in Sources */,
+				E306571D1F0C3A1E0081C93E /* ComicBookViewController.swift in Sources */,
 				E32A98551F0BEFB6006AFF8F /* ViewController.swift in Sources */,
 				E32A98531F0BEFB6006AFF8F /* AppDelegate.swift in Sources */,
 			);
@@ -316,6 +320,7 @@
 				E32A98661F0BEFB6006AFF8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
